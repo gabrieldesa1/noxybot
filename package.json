@@ -1,0 +1,15 @@
+{
+  "name": "qa-microsoft-forms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "qa": "node qa-form.mjs",
+    "submit": "node qa-form.mjs --submit",
+    "qa:submit": "node qa-form.mjs --submit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "playwright": "^1.52.0"
+  }
+}
